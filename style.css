@@ -1,1 +1,27 @@
-/* want to show a page but looks not deployed so pointless css file yet */
+body {
+    animation: bg 5s infinite linear;
+    color: white;
+}
+
+@keyframes bg {
+    0% {
+        background-color: #111222;
+    }
+    50% {
+        background-color: #222333;
+    }
+    100% {
+        background-color: #111222;
+    }
+}
+
+.navbar {
+    top: 0;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    z-index: 10000;
+    width: 100vw;
+    background-color: #000000b0;
+    box-shadow: #000 0 0 10px;
+    /*height: 42.5px;*/
+}
