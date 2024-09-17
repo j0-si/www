@@ -25,3 +25,12 @@ body {
     box-shadow: #000 0 0 10px;
     /*height: 42.5px;*/
 }
+
+.u {
+    display: inline-block;
+    transition: 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.u:hover {
+    transform: translateX(3px);
+}
